@@ -1,9 +1,21 @@
 import express from "express";
-import dotenv from "dotenv";
-import { sql } from "./config/db.js";
+import dotenv, { parse } from "dotenv";
+import { sql } from "../src/config/db.js";
+import rateLimiter from "../src/middlewares/rateLimiter.js";
+import transactionsRoute from "../src/routes/transactions.route.js";
 dotenv.config();
 
 const app = express();
+
+app.set('trust proxy', true);
+
+// middlewares
+app.use(rateLimiter);
+app.use(express.json());  // Parse JSON bodies
+
+
+
+// Load environment variables
 const PORT = process.env.PORT || 3000;
 
 // initialize database
@@ -27,6 +39,8 @@ async function initDB() {
 app.get("/", (req, res) => {
   res.send("Backend server is running!");
 });
+
+app.use("/api/transactions", transactionsRoute);
 
 initDB().then(() => {
     app.listen(PORT, () => {
