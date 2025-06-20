@@ -18,7 +18,7 @@ router.get("/:userId", getTransactionsByUserId);
 router.delete("/:id", deleteTransactionById);
 
 // Get summery of transactions for a user
-router.get("/summery/:userId", getTransactionSummaryByUserId);
+router.get("/summary/:userId", getTransactionSummaryByUserId);
 
 
 export default router;
