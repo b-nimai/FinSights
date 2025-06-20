@@ -3,9 +3,12 @@ import dotenv, { parse } from "dotenv";
 import { sql } from "../src/config/db.js";
 import rateLimiter from "../src/middlewares/rateLimiter.js";
 import transactionsRoute from "../src/routes/transactions.route.js";
+import job from "./config/cron.js"
 dotenv.config();
 
 const app = express();
+// Start the cron job
+if(process.env.NODE_ENV === 'production')  job.start();
 
 app.set('trust proxy', true);
 

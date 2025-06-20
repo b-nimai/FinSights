@@ -112,6 +112,7 @@
 import { useCallback, useState } from "react";
 import { Alert } from "react-native"; // If using React Native
 
+// const API_URL = "https://finsights-p6kc.onrender.com/api";
 const API_URL = "http://10.0.2.2:3000/api";
 
 export const useTransactions = (userId) => {
