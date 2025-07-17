@@ -1,42 +1,25 @@
 {
   "expo": {
-    "name": "Mobile",
+    "name": "FinSights",
     "slug": "Mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "mobile",
+    "icon": "./assets/images/icon_1.png",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
+    "newArchEnabled": false,
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "package": "com.nill_0.Mobile"
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
+      "expo-web-browser"
     ],
-    "experiments": {
-      "typedRoutes": true
+    "owner": "nill_0",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "99273a46-cf85-4424-87db-4b0a9b3483a7"
+      }
     }
   }
 }
