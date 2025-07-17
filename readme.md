@@ -32,14 +32,52 @@ A full-stack expense tracking application built with:
 
 ## 🖼️ Screenshots
 
-![SignUp Page](FinSights_SS/0_SignUp.png)  
-![SignUp Email Verification Page](FinSights_SS/1_SignUp_Verify.png)  
-![Sign In Page](FinSights_SS/2_Sign_In.png)  
-![Home Page](FinSights_SS/3_Home_page.png)  
-![Transaction Page](FinSights_SS/4_Add_Transactions.png)  
-![Transaction Success Message](FinSights_SS/5_Transaction_Success.png)  
-![Home Page With Transactions](FinSights_SS/6_Home_With_Result.png)  
-![LogOut](FinSights_SS/7_LogOut.png)
+<h3 align="center">📱 App Screenshots</h3>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="FinSights_SS/0_SignUp.png" alt="Sign Up" width="200"/><br/>
+      <sub>Sign Up</sub>
+    </td>
+    <td align="center">
+      <img src="FinSights_SS/1_SignUp_Verify.png" alt="Verify Email" width="200"/><br/>
+      <sub>Verify Email</sub>
+    </td>
+    <td align="center">
+      <img src="FinSights_SS/2_Sign_In.png" alt="Sign In" width="200"/><br/>
+      <sub>Sign In</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="FinSights_SS/3_Home_page.png" alt="Home Page" width="200"/><br/>
+      <sub>Home Page</sub>
+    </td>
+    <td align="center">
+      <img src="FinSights_SS/4_Add_Transactions.png" alt="Add Transaction" width="200"/><br/>
+      <sub>Add Transaction</sub>
+    </td>
+    <td align="center">
+      <img src="FinSights_SS/5_Transaction_Success.png" alt="Transaction Success" width="200"/><br/>
+      <sub>Transaction Success</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="FinSights_SS/6_Home_With_Result.png" alt="Home with Result" width="200"/><br/>
+      <sub>Home with Transactions</sub>
+    </td>
+    <td align="center">
+      <img src="FinSights_SS/7_LogOut.png" alt="Logout" width="200"/><br/>
+      <sub>Logout</sub>
+    </td>
+    <td align="center">
+      <!-- Empty cell to maintain layout -->
+    </td>
+  </tr>
+</table>
+
 
 ---
 
