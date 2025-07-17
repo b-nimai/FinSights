@@ -1,4 +1,3 @@
-````md
 # 📱 FinSights Expense Tracker App
 
 A full-stack expense tracking application built with:
